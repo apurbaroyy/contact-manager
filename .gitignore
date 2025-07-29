@@ -1,0 +1,19 @@
+env/
+__pycache__/
+*.pyc
+db.sqlite3
+*.sqlite3
+*.env
+*.venv
+*.vscode/
+*.idea/
+# Query: manage.py
+# ContextLines: 1
+
+2 results - 1 file
+
+main.py:
+  29          return f"{self.name} ({self.roll_no})"
+  30: python manage.py makemigrations
+  31: python manage.py migrate
+  32  
